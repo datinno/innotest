@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 100  # defaults to 88 like black
+target-version = "py39"  # the python version to target, useful when considering code upgrades, defaults to "py310"
+
+select = [
+  "E",   # pycodestyle
+  "F",   # pyflakes
+  "UP",  # pyupgrade,
+  "I",   # isort
+]
